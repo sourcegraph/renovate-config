@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json.schemastore.org/renovate",
+  "extends": ["config:base"],
+  "timezone": "America/Los_Angeles",
+  "schedule": ["on the 1st through 7th day of the month"],
+  "lockFileMaintenance": {
+    "schedule": ["on the 1st through 7th day of the month"]
+  },
+  "updateNotScheduled": true,
+  "prCreation": "not-pending",
+  "rangeStrategy": "replace",
+  "assignees": ["felixfbecker"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@sourcegraph/"],
+      "packageNames": ["cxp"],
+      "rangeStrategy": "bump",
+      "schedule": []
+    },
+    {
+      "packagePatterns": ["^@types/"],
+      "rangeStrategy": "pin",
+      "assignees": [],
+      "automerge": true
+    },
+    {
+      "packageNames": ["cxp", "@sourcegraph/extensions-client-common"],
+      "assignees": ["sqs", "chrismwendt"]
+    },
+    {
+      "packageNames": ["@sourcegraph/phabricator-extension"],
+      "assignees": ["KattMingMing"]
+    },
+    {
+      "packageNames": ["@sourcegraph/codeintellify"],
+      "assignees": ["felixfbecker", "ijsnow"]
+    }
+  ]
+}
