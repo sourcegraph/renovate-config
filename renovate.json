@@ -4,7 +4,8 @@
   "timezone": "America/Los_Angeles",
   "schedule": ["on the 1st through 7th day of the month"],
   "lockFileMaintenance": {
-    "schedule": ["on the 1st through 7th day of the month"]
+    "extends": ["schedule:monthly"],
+    "enabled": true
   },
   "updateNotScheduled": true,
   "prCreation": "not-pending",
@@ -13,7 +14,7 @@
   "packageRules": [
     {
       "packagePatterns": ["^@sourcegraph/"],
-      "packageNames": ["cxp"],
+      "packageNames": ["sourcegraph"],
       "rangeStrategy": "bump",
       "schedule": []
     },
@@ -24,12 +25,12 @@
       "automerge": true
     },
     {
-      "packageNames": ["cxp", "@sourcegraph/extensions-client-common"],
+      "packageNames": ["sourcegraph", "@sourcegraph/extensions-client-common"],
       "assignees": ["sqs", "chrismwendt"]
     },
     {
       "packageNames": ["@sourcegraph/phabricator-extension"],
-      "assignees": ["KattMingMing"]
+      "assignees": ["ijsnow"]
     },
     {
       "packageNames": ["@sourcegraph/codeintellify"],
