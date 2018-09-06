@@ -35,6 +35,10 @@
     {
       "packageNames": ["@sourcegraph/codeintellify"],
       "assignees": ["felixfbecker", "ijsnow"]
+    },
+    {
+      "packagePatterns": ["prettier"],
+      "groupName": "prettier"
     }
   ]
 }
