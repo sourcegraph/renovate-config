@@ -43,6 +43,10 @@
     {
       "packagePatterns": ["prettier"],
       "groupName": "prettier"
+    },
+    {
+      "packagePatterns": ["prettier", "lint"],
+      "automerge": true
     }
   ]
 }
