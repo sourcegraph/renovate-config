@@ -15,6 +15,9 @@
   "prCreation": "not-pending",
   "rangeStrategy": "replace",
   "assignees": ["felixfbecker"],
+  "golang": {
+    "assignees": ["slimsag"]
+  },
   "packageRules": [
     {
       "packagePatterns": ["^@sourcegraph/"],
