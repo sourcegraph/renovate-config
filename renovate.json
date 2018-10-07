@@ -18,7 +18,7 @@
   "packageRules": [
     {
       "packagePatterns": ["^@sourcegraph/"],
-      "packageNames": ["sourcegraph"],
+      "packageNames": ["sourcegraph", "semantic-release-firefox", "npm-link-checker"],
       "rangeStrategy": "bump",
       "schedule": []
     },
