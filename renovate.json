@@ -33,7 +33,7 @@
     },
     {
       "packageNames": ["sourcegraph", "@sourcegraph/extensions-client-common"],
-      "assignees": ["sqs", "chrismwendt"]
+      "assignees": ["slimsag", "chrismwendt"]
     },
     {
       "packageNames": ["@sourcegraph/phabricator-extension"],
