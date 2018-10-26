@@ -12,7 +12,7 @@
     "enabled": true
   },
   "updateNotScheduled": true,
-  "prCreation": "not-pending",
+  "prCreation": "immediate",
   "rangeStrategy": "replace",
   "assignees": ["felixfbecker"],
   "golang": {
