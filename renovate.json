@@ -13,6 +13,7 @@
   },
   "updateNotScheduled": true,
   "prCreation": "immediate",
+  "prHourlyLimit": 10,
   "rangeStrategy": "replace",
   "assignees": ["felixfbecker"],
   "golang": {
