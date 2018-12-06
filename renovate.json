@@ -22,23 +22,20 @@
   "packageRules": [
     {
       "packagePatterns": ["^@sourcegraph/"],
-      "packageNames": ["sourcegraph", "semantic-release-firefox", "npm-link-checker"],
       "rangeStrategy": "bump",
       "schedule": []
+    },
+    {
+      "packageNames": ["sourcegraph"],
+      "rangeStrategy": "bump",
+      "schedule": [],
+      "automerge": true
     },
     {
       "packagePatterns": ["^@types/"],
       "rangeStrategy": "pin",
       "assignees": [],
       "automerge": true
-    },
-    {
-      "packageNames": ["sourcegraph", "@sourcegraph/extensions-client-common"],
-      "assignees": ["slimsag", "chrismwendt"]
-    },
-    {
-      "packageNames": ["@sourcegraph/phabricator-extension"],
-      "assignees": ["ijsnow"]
     },
     {
       "packageNames": ["@sourcegraph/codeintellify"],
