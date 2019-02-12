@@ -46,7 +46,7 @@
       "groupName": "prettier"
     },
     {
-      "packagePatterns": ["prettier", "lint"],
+      "packagePatterns": ["prettier", "lint", "^@sourcegraph/tsconfig$"],
       "automerge": true
     },
     {
