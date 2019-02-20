@@ -42,6 +42,10 @@
       "assignees": ["felixfbecker", "ijsnow"]
     },
     {
+      "packageNames": ["@sourcegraph/basic-code-intel"],
+      "assignees": ["chrismwendt"]
+    },
+    {
       "packagePatterns": ["prettier"],
       "groupName": "prettier"
     },
