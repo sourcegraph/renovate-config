@@ -11,6 +11,7 @@
     "extends": ["schedule:monthly"],
     "enabled": true
   },
+  "masterIssue": true,
   "updateNotScheduled": true,
   "prCreation": "immediate",
   "prHourlyLimit": 10,
