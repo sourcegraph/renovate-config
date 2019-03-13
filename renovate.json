@@ -16,6 +16,7 @@
   "prCreation": "immediate",
   "prHourlyLimit": 10,
   "rangeStrategy": "replace",
+  "postUpdateOptions": ["yarnDedupeFewer"],
   "assignees": ["felixfbecker"],
   "golang": {
     "assignees": ["slimsag"]
