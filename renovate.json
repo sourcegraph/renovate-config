@@ -21,6 +21,13 @@
   "golang": {
     "assignees": ["slimsag"]
   },
+  "docker": {
+    "schedule": [],
+    "pinDigests": true,
+    "digest": {
+      "automerge": true
+    }
+  },
   "packageRules": [
     {
       "packagePatterns": ["^@sourcegraph/"],
