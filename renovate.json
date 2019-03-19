@@ -22,6 +22,7 @@
     "assignees": ["slimsag"]
   },
   "docker": {
+    "assignees": [],
     "pinDigests": true
   },
   "packageRules": [
