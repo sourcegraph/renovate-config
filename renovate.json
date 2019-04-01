@@ -57,6 +57,7 @@
     },
     {
       "packagePatterns": ["prettier", "lint", "^@sourcegraph/tsconfig$"],
+      "depTypeList": ["devDependencies"],
       "automerge": true
     },
     {
