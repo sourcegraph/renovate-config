@@ -15,6 +15,7 @@
   "updateNotScheduled": true,
   "prCreation": "immediate",
   "prHourlyLimit": 10,
+  "prConcurrentLimit": 50,
   "rangeStrategy": "replace",
   "postUpdateOptions": ["yarnDedupeFewer"],
   "assignees": ["felixfbecker"],
