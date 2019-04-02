@@ -16,7 +16,7 @@
   "prCreation": "immediate",
   "prHourlyLimit": 10,
   "prConcurrentLimit": 50,
-  "rangeStrategy": "replace",
+  "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeFewer"],
   "assignees": ["felixfbecker"],
   "golang": {
