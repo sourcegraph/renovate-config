@@ -20,7 +20,8 @@
   "postUpdateOptions": ["yarnDedupeFewer"],
   "assignees": ["felixfbecker"],
   "golang": {
-    "assignees": ["slimsag"]
+    "assignees": ["slimsag"],
+    "masterIssueApproval": true
   },
   "docker": {
     "assignees": [],
@@ -54,6 +55,7 @@
     },
     {
       "packagePatterns": ["^golang.org/"],
+      "masterIssueApproval": false,
       "assignees": [],
       "automerge": true
     },
