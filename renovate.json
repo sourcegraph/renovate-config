@@ -54,7 +54,7 @@
       "assignees": ["chrismwendt"]
     },
     {
-      "packagePatterns": ["^golang.org/"],
+      "packagePatterns": ["^golang.org/x/"],
       "masterIssueApproval": false,
       "assignees": [],
       "automerge": true
