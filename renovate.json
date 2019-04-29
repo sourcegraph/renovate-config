@@ -53,6 +53,11 @@
       "assignees": ["chrismwendt"]
     },
     {
+      "packagePatterns": ["^golang.org/"],
+      "assignees": [],
+      "automerge": true
+    },
+    {
       "packagePatterns": ["prettier"],
       "groupName": "prettier"
     },
