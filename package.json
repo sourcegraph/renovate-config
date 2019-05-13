@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "@sourcegraph/prettierrc": "^2.2.0",
+    "@sourcegraph/prettierrc": "^3.0.1",
     "prettier": "^1.14.2"
   }
 }
