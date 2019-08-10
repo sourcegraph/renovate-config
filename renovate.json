@@ -15,15 +15,18 @@
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeFewer"],
   "assignees": ["felixfbecker"],
-  "golang": {
-    "assignees": ["slimsag"],
-    "masterIssueApproval": true
-  },
   "docker": {
     "assignees": [],
     "pinDigests": true
   },
   "packageRules": [
+    {
+      "languages": ["golang"],
+      "packagePatterns": [".*"],
+      "groupName": "godeps",
+      "reviewers": ["team:core-services"],
+      "assignees": ["team:core-serviceS"]
+    },
     {
       "packagePatterns": ["^@sourcegraph/"],
       "rangeStrategy": "bump",
@@ -43,17 +46,11 @@
     },
     {
       "packageNames": ["@sourcegraph/codeintellify"],
-      "assignees": ["felixfbecker", "ijsnow"]
+      "assignees": ["felixfbecker"]
     },
     {
       "packageNames": ["@sourcegraph/basic-code-intel"],
       "assignees": ["chrismwendt"]
-    },
-    {
-      "packagePatterns": ["^golang.org/x/"],
-      "masterIssueApproval": false,
-      "assignees": [],
-      "automerge": true
     },
     {
       "packagePatterns": ["prettier"],
