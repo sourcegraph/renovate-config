@@ -25,7 +25,7 @@
       "packagePatterns": [".*"],
       "groupName": "godeps",
       "reviewers": ["team:core-services"],
-      "assignees": ["team:core-serviceS"]
+      "assignees": ["team:core-services"]
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
