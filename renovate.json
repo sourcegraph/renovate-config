@@ -24,8 +24,8 @@
       "languages": ["golang"],
       "packagePatterns": [".*"],
       "groupName": "godeps",
-      "reviewers": ["team:core-services"],
-      "assignees": ["team:core-services"]
+      "reviewers": ["team:sourcegraph/core-services"],
+      "assignees": ["team:sourcegraph/core-services"]
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
