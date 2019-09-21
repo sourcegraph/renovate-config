@@ -8,6 +8,7 @@
   },
   "prBodyColumns": ["Package", "Type", "Update", "New value", "References", "Sourcegraph"],
   "masterIssue": true,
+  "masterIssueApproval": true,
   "updateNotScheduled": true,
   "prCreation": "immediate",
   "prHourlyLimit": 10,
