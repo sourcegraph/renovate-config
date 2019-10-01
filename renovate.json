@@ -23,9 +23,10 @@
     "assignees": [],
     "pinDigests": true
   },
+  "labels": ["bot"],
   "npm": {
     "reviewers": ["team:web"],
-    "labels": ["npm"]
+    "labels": ["npm", "bot"]
   },
   "packageRules": [
     {
@@ -33,7 +34,7 @@
       "packagePatterns": [".*"],
       "groupName": "godeps",
       "reviewers": ["team:core-services"],
-      "labels": ["go"]
+      "labels": ["go", "bot"]
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
