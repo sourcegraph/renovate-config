@@ -24,13 +24,17 @@
     "assignees": [],
     "pinDigests": true
   },
+  "npm": {
+    "labels": ["npm"]
+  },
   "packageRules": [
     {
       "languages": ["golang"],
       "packagePatterns": [".*"],
       "groupName": "godeps",
       "reviewers": ["team:sourcegraph/core-services"],
-      "assignees": ["team:sourcegraph/core-services"]
+      "assignees": ["team:sourcegraph/core-services"],
+      "labels": ["go"]
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
