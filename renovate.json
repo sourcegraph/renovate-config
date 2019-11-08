@@ -21,7 +21,10 @@
   "postUpdateOptions": ["yarnDedupeFewer"],
   "docker": {
     "assignees": [],
-    "pinDigests": true
+    "pinDigests": true,
+    "major": {
+      "enabled": true
+    }
   },
   "labels": ["bot"],
   "npm": {
