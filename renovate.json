@@ -52,6 +52,11 @@
       "automerge": true
     },
     {
+      "packageNames": ["comby/comby"],
+      "schedule": [],
+      "reviewers": ["team:automation"]
+    },
+    {
       "packagePatterns": ["^@types/"],
       "rangeStrategy": "pin",
       "reviewers": [],
