@@ -11,6 +11,12 @@
       "rangeStrategy": "widen"
     }
   },
+  "node": {
+    "supportPolicy": ["current"],
+    "major": {
+      "enabled": true
+    }
+  },
   "prBodyColumns": ["Package", "Type", "Update", "New value", "References", "Sourcegraph"],
   "masterIssue": true,
   "updateNotScheduled": true,
