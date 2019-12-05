@@ -12,7 +12,7 @@
     }
   },
   "node": {
-    "supportPolicy": ["current"],
+    "supportPolicy": ["all"],
     "major": {
       "enabled": true
     }
