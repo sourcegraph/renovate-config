@@ -39,13 +39,6 @@
   },
   "packageRules": [
     {
-      "languages": ["golang"],
-      "packagePatterns": [".*"],
-      "groupName": "godeps",
-      "reviewers": ["team:core-services"],
-      "labels": ["go", "bot"]
-    },
-    {
       "packagePatterns": ["^@sourcegraph/"],
       "rangeStrategy": "bump",
       "schedule": []
