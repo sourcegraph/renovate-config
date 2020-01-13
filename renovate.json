@@ -41,9 +41,7 @@
     {
       "languages": ["golang"],
       "packagePatterns": [".*"],
-      "groupName": "godeps",
-      "reviewers": ["team:core-services"],
-      "labels": ["go", "bot"]
+      "enabled": false
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
