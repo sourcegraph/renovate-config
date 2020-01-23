@@ -58,7 +58,7 @@
     {
       "packageNames": ["comby/comby"],
       "schedule": [],
-      "reviewers": ["team:automation"]
+      "reviewers": ["team:automation-core"]
     },
     {
       "packagePatterns": ["^@types/"],
