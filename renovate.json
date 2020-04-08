@@ -51,6 +51,7 @@
     {
       "packageNames": ["sourcegraph", "@sourcegraph/extension-api-classes", "@sourcegraph/extension-api-stubs"],
       "groupName": "sourcegraph",
+      "separateMajorMinor": false,
       "rangeStrategy": "bump",
       "schedule": [],
       "reviewers": [],
