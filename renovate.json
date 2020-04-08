@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json.schemastore.org/renovate",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "timezone": "America/Los_Angeles",
   "schedule": ["on the 1st through 7th day of the month"],
@@ -49,7 +49,7 @@
       "schedule": []
     },
     {
-      "packageNames": ["sourcegraph", "@sourcegraph/extension-api-classes"],
+      "packageNames": ["sourcegraph", "@sourcegraph/extension-api-classes", "@sourcegraph/extension-api-stubs"],
       "groupName": "sourcegraph",
       "rangeStrategy": "bump",
       "schedule": [],
