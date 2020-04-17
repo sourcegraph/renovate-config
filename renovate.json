@@ -87,6 +87,10 @@
       "groupName": "vscode"
     },
     {
+      "packagePatterns": ["^karma-"],
+      "groupName": "karma"
+    },
+    {
       "packagePatterns": ["monaco"],
       "groupName": "monaco"
     }
