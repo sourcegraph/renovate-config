@@ -49,7 +49,7 @@
       "schedule": []
     },
     {
-      "packageNames": ["sourcegraph", "@sourcegraph/extension-api-classes", "@sourcegraph/extension-api-stubs"],
+      "packagePatterns": ["^sourcegraph$", "^@sourcegraph/extension-api-"],
       "groupName": "sourcegraph",
       "separateMajorMinor": false,
       "rangeStrategy": "bump",
