@@ -45,12 +45,14 @@
     },
     {
       "packagePatterns": ["^@sourcegraph/"],
+      "labels": ["npm", "bot", "internal package"],
       "rangeStrategy": "bump",
       "schedule": []
     },
     {
       "packagePatterns": ["^sourcegraph$", "^@sourcegraph/extension-api-"],
       "groupName": "sourcegraph",
+      "labels": ["npm", "bot", "internal package"],
       "separateMajorMinor": false,
       "rangeStrategy": "bump",
       "schedule": [],
