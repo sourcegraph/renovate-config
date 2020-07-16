@@ -93,6 +93,10 @@
       "groupName": "karma"
     },
     {
+      "packagePatterns": ["^@pollyjs/"],
+      "groupName": "polly"
+    },
+    {
       "packagePatterns": ["monaco"],
       "groupName": "monaco"
     }
