@@ -34,7 +34,6 @@
   },
   "labels": ["bot"],
   "npm": {
-    "reviewers": ["team:web"],
     "labels": ["npm", "bot"]
   },
   "packageRules": [
