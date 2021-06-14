@@ -74,6 +74,10 @@
       "reviewers": ["team:code-intel"]
     },
     {
+      "packageNames": ["^@visx/"],
+      "reviewers": ["team:code-insights"]
+    },
+    {
       "packagePatterns": ["prettier"],
       "groupName": "prettier"
     },
