@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "timezone": "America/Los_Angeles",
-  "schedule": ["on the 1st through 7th day of the month"],
+  "schedule": ["at any time"],
   "prBodyDefinitions": {
     "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{encodeURIComponent repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json%7Cyarn%5C.lock+{{{encodeURIComponent depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{encodeURIComponent repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json%7Cyarn%5C.lock+{{{encodeURIComponent depName}}})"
   },
